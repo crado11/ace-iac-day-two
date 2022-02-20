@@ -4,6 +4,7 @@ locals {
     tcp = {
       "*.aviatrix.com" = "443"
       "aviatrix.com"   = "80"
+      #new line
       "*.ubuntu.com"   = "80"
     }
     udp = {
